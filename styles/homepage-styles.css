@@ -1,3 +1,38 @@
+header, section, footer, aside, nav article, figure, figcaption {
+	display: block;
+}
+
 body {
+	background-color: #ffffff;
 	font-family: Arial, Verdana, sans-serif;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 20px auto 20px auto;
+}
+
+header {
+	height: 100%;
+	background-color:  #99d6ff;
+}
+
+h1 {
+	clear: both;
+}
+
+nav, footer {
+	background-color: #d1d1e0;
+	height: 100%;
+	padding: 20px auto 10px auto;
+}
+
+nav ul {
+	margin: 0px;
+	padding: 5px 0px 5px 30px;
+}
+
+nav li {
+	display: inline;
+	margin-right: 40px;
 }
