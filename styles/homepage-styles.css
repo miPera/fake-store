@@ -45,3 +45,12 @@ nav li a:hover, nav li a.current {
 	color: #000000;
 }
 
+section.front-page-deals {
+	float: left;
+}
+
+article {
+	clear: both;
+	overflow: auto;
+	width: 100%;
+}
